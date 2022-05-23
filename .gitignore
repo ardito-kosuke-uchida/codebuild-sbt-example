@@ -1,0 +1,15 @@
+# Playframework
+logs
+project/project
+project/target
+target
+tmp
+dist
+.cache
+.ehcache
+
+# .idea files
+.idea/**/*
+
+# Mac
+.DS_Store
