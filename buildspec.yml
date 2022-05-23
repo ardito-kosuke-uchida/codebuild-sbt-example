@@ -17,6 +17,7 @@ artifacts:
   type: zip
   files:
     - target/scala-2.11/example-assembly-0.1-SNAPSHOT.jar
+  discard-paths: yes
 cache:
   paths:
     - '/root/.sbt/**/*'
