@@ -9,11 +9,14 @@ phases:
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
-      - false
   build:
     commands:
       - echo Build started on `date`
+      - false
       - sbt assembly
+  post_build:
+    commands:
+      - echo post_build phase...
 artifacts:
   type: zip
   files:
